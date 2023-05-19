@@ -1,5 +1,6 @@
 package com.example.backend.model;
 
+import com.example.backend.enumeration.Status;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 import lombok.experimental.SuperBuilder;
