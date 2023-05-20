@@ -6,10 +6,10 @@ import {Server} from "../interface/server";
 import {Status} from "../enum/status.enum";
 
 @Injectable({
-  providedIn: 'root'
+    providedIn: 'root'
 })
 export class ServerService {
-    private readonly apiUrl = 'any';
+    private readonly apiUrl = 'http://localhost:8080';
 
     constructor(private http: HttpClient) { }
 
